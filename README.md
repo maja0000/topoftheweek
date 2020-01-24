@@ -40,7 +40,7 @@ variables can be declared without a value
 ## ⭐ SCOPE ⭐
 - defines where variable can be accessed or referenced
 
-{...}block - cod found inside a set of curly brackets. Blocks help to group 1 or more statements together. 
+{...}block - code found inside a set of curly brackets. Blocks help to group 1 or more statements together. 
 ### ⭐ 1. Global scope (global variables)
 variables declared *outside* of the block. (can be accesed by any code in the program)
 
