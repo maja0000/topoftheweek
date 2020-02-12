@@ -26,9 +26,9 @@ Wednesday (12.02.2020)
 ### 6. create (functional) component 
 (param - element, tag with id and value)
                             
-                      function App() {
-                       return React.createElement('div', { className: 'hello' },
-                       )};
+    function App() {
+    return React.createElement('div', { className: 'hello' },
+    )};
                        
                        
 ### 7. element inside another element - h1 inside of <div> tag 
