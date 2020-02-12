@@ -6,19 +6,19 @@ Wednesday (12.02.2020)
 
 ## Pure React (create react app without Babel)
 
-### 1. create src folder
-### 2. html sceletor
-### 3. root div
+### 1. Create src folder
+### 2. Create html skeleton 
+### 3. Create root div
         
     (<div id="root"> Not rendered yet </div>)
           
-### 4. React DOM
+### 4. Add React and ReactDOM
              
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.12.0/umd/react.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.11.0/umd/react-dom.production.min.js"></script>
 
   
-### 5. Check if React is present 
+### 5. Check if React is present :)
 - console.log(React) 
 - console.log(ReactDOM)
 
