@@ -197,7 +197,8 @@ x=5 → 2+3 or in maths: F(x) = F(x-1) + F(x-2)
 
 
 solution 1 
-
+                             
+                             function fibonacci() {
                           if (num <= 1) return 1;
                            return fibonacci(num - 1) + fibonacci(num - 2);
                           }
@@ -216,6 +217,19 @@ solution 2
                           return resultArray;
                         }
                         console.log(fibonachi(10));
+
+solution 3 
+
+
+
+                        function fibonacci(x) {
+                            let arr = [0, 1];
+                            for (let i = 0; i < x; i++) {
+                              arr.push(arr[i] + arr[i + 1]);
+                              console.log(arr);
+                            }
+                          }
+                          fibonacci(x);
 
 
 
