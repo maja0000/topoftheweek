@@ -2,24 +2,24 @@
 
 ## Pure React (create react app without Babel)
 
-### 1. Create src folder
-### 2. Create html skeleton 
-### 3. Create root div
+#### 1. Create src folder
+#### 2. Create html skeleton 
+#### 3. Create root div
         
     (<div id="root"> Not rendered yet </div>)
           
-### 4. Add React and ReactDOM
+#### 4. Add React and ReactDOM
              
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.12.0/umd/react.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.11.0/umd/react-dom.production.min.js"></script>
 
   
-### 5. Check if React is present :)
+#### 5. Check if React is present :)
 - console.log(React) 
 - console.log(ReactDOM)
 
 
-### 6. create (functional) component 
+#### 6. create (functional) component 
 (param - element, tag with id and value)
                             
     function App() {
@@ -27,7 +27,7 @@
     )};
                        
                        
-### 7. element inside another element - h1 inside of <div> tag 
+#### 7. element inside another element - h1 inside of <div> tag 
 
     function App() {
     return React.createElement('div', { className: 'hello' },
@@ -36,12 +36,12 @@
      }
 
 
-### 8. Render App component inside of root element    
+#### 8. Render App component inside of root element    
               
     ReactDOM.render(
     react.createElement(App), document.getElementById('root'));
 
-### 9. create components in seperate files (multiple elements in an array)
+#### 9. create components in seperate files (multiple elements in an array)
 
     function Title(props) {
     return React.createElement('div', { className: "hello" }, [
@@ -51,7 +51,7 @@
      ])
      };
 
-### 10. import seperate sheets.js into index.html 
+#### 10. import seperate sheets.js into index.html 
                 
     <script src="Title.js"></script>
     <script src="App.js"></script>
