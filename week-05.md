@@ -144,6 +144,9 @@ Request methods :
 - The Promise object represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
 
 
+![promises](https://user-images.githubusercontent.com/52657665/74412658-34dc1980-4e3e-11ea-8750-33d89f5a55c4.png)
+
+
 
 
 
