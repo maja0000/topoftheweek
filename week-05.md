@@ -146,6 +146,24 @@ Request methods :
 
 ![promises](https://user-images.githubusercontent.com/52657665/74412658-34dc1980-4e3e-11ea-8750-33d89f5a55c4.png)
 
+Working with promises : 
+1) create a promise instance using Promise() Constructor
+2) Define what should happen when promise is fulfilled or rejected
+3) Consume the value of the fulfilled promise or provide ar provide a rejection reason for a rejected promise, 
+
+        const myNewPromise = new Promise ((resolve, reject)=> {
+        setTimeOut (()=>{
+        resolve ("Your order is ready!")
+        },3000);
+        });
+
+
+        myNewPromise.then(val => console.log(val))
+        
+(returns fullfiled value (whatever passed into resolve is avalible here ))
+
+
+Promise.all() - usefull when program needs to wait more than one promise to resolve 
 
 
 
