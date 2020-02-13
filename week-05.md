@@ -61,6 +61,86 @@ Wednesday (12.02.2020)
     <script src="App.js"></script>
                   
                               
+## React Router 
+(https://reacttraining.com/react-router/web/guides/quick-start)
+
+- render components dynamically in a Single Page Application
+
+How to create :
+1) install 
+
+        npm/yarn install react-router-dom
+        
+2) import 
+
+        import { BrowserRouter as router, Switch} from "react-router-dom";
+
+3) wrap all components in App.js in <Router/> component
+ add <Switch>, looks through its children <Route>s and renders the first one that matches the current URL.
+
+(name of the path is whatever u want)
+
+
+        <Router>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <Homepage />
+        </Route>
+        <Route path="/about-us">
+          <AboutUs />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+      </Switch>
+    </Router>
+
+4)  OR 
+
+        <Route exact path="/" component={Homepage} />
+        <Route path="/aboutUs" component={AboutUs} />
+        <Route exact path="/contact" component={contact} />
+
+
+5) import links 
+
+        import { Link } from 'react-router-dom';
+
+6) add link inside <li>
+
+         <h3><Link to="/">My super Company</Link></h3>
+
+         <li className="nav-items"><Link to="/About">Infos</Link></li>
+
+
+
+#### Navlink 
+
+        import { Navlink } from 'react-router-dom';
+
+Change css when link active 
+
+       <li className="nav-items"><NavLink activeClassName="active" to="About">About</NavLink></li>
+
+
+# HTTP
+- Hypertext Transfer Protocol is an application-layer protocol for transmitting hypermedia documents, such as HTML.
+
+put 
+delete
+then
+get
+
+
+
+
+
+
+
+
+
+
 
 
 
