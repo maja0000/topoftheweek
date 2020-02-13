@@ -1,9 +1,5 @@
 #  week5 recap 🧠
 
-Wednesday (12.02.2020)
-
-
-
 ## Pure React (create react app without Babel)
 
 ### 1. Create src folder
@@ -166,12 +162,13 @@ Working with promises :
 Promise.all() -bmethod returns a single Promise that fulfills when all of the promises passed as an iterable have been fulfilled ( usefull when program needs to wait more than one promise to resolve ). It rejects with the reason of the first promise 
 
 
-## Functional programming -  form of programming in which you can pass functions as parameters to other functions and also return them as values.
+## Functional programming -  
+form of programming in which you can pass functions as parameters to other functions and also return them as values.
 
 First-Class Functions (first-class citizens)
 
 
-Thursday (13.02.2020)
+
 
 Higher order function - functions that operate on other functions, either by taking them as arguments or by returning them. (function that receives a function as an argument or returns the function as output)
 
@@ -189,6 +186,3 @@ Array.prototype.reduce
 
 
 
-
-
-Friday(14.02.2020)
