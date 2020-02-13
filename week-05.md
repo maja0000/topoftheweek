@@ -166,7 +166,7 @@ In a synchronous programming model, things happen one at a time. When you call a
 
 ### Asynchronous programing : 
 An asynchronous model allows multiple things to happen at the same time. When you start an action, your program continues to run. When the action finishes, the program is informed and gets access to the result (for example, the data read from disk).
-
+- Promises
 
 ## Functional programming - 
 form of programming in which you can pass functions as parameters to other functions and also return them as values.
@@ -177,18 +177,45 @@ First-Class Functions (first-class citizens)
 Higher order function - functions that operate on other functions, either by taking them as arguments or by returning them. (function that receives a function as an argument or returns the function as output)
 
 For example :
-Array.prototype.map, 
-Array.prototype.filter,
-Array.prototype.reduce
+- Array.prototype.map, 
+- Array.prototype.filter,
+- Array.prototype.reduce
 
 
+-------------------------------------------------------------------
 
 ### .sort() method - 
 sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 
+### Fibonacci sequence algorithm in Javascript
+
+Given a number X return the index value of the Fibonacci sequence, where the sequence is:
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
+Pattern of the sequence is that each value is the sum of the 2 previous values, that means that for
+x=5 → 2+3 or in maths: F(x) = F(x-1) + F(x-2)
 
 
 
+solution 1 
+
+                          if (num <= 1) return 1;
+                           return fibonacci(num - 1) + fibonacci(num - 2);
+                          }
+
+solution 2 
+
+                        function fibonachi (num){
+                        let resultArray = [1, 1,]
+                          let firstNumber = 1;
+                          let result = 1;
+                          for (let i = 0; i <= num; i++){
+                            result += firstNumber;
+                            resultArray.push(result);
+                            firstNumber =result - firstNumber;
+                          }
+                          return resultArray;
+                        }
+                        console.log(fibonachi(10));
 
 
 
