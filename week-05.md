@@ -161,7 +161,14 @@ Working with promises :
 Promise.all() - method returns a single Promise that fulfills when all of the promises passed as an iterable have been fulfilled ( usefull when program needs to wait more than one promise to resolve ). It rejects with the reason of the first promise 
 
 
-## Functional programming -  
+### Synchronous programing : 
+In a synchronous programming model, things happen one at a time. When you call a function that performs a long-running action, it returns only when the action has finished and it can return the result. This stops your program for the time the action takes.
+
+### Asynchronous programing : 
+An asynchronous model allows multiple things to happen at the same time. When you start an action, your program continues to run. When the action finishes, the program is informed and gets access to the result (for example, the data read from disk).
+
+
+## Functional programming - 
 form of programming in which you can pass functions as parameters to other functions and also return them as values.
 
 First-Class Functions (first-class citizens)
