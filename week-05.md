@@ -158,8 +158,7 @@ Working with promises :
         
 (returns fullfiled value (whatever passed into resolve is avalible here ))
 
-
-Promise.all() -bmethod returns a single Promise that fulfills when all of the promises passed as an iterable have been fulfilled ( usefull when program needs to wait more than one promise to resolve ). It rejects with the reason of the first promise 
+Promise.all() - method returns a single Promise that fulfills when all of the promises passed as an iterable have been fulfilled ( usefull when program needs to wait more than one promise to resolve ). It rejects with the reason of the first promise 
 
 
 ## Functional programming -  
@@ -168,16 +167,17 @@ form of programming in which you can pass functions as parameters to other funct
 First-Class Functions (first-class citizens)
 
 
-
-
 Higher order function - functions that operate on other functions, either by taking them as arguments or by returning them. (function that receives a function as an argument or returns the function as output)
 
 For example :
 Array.prototype.map, 
-Array.prototype.filter 
-Array.prototype.reduce 
+Array.prototype.filter,
+Array.prototype.reduce
 
 
+
+### .sort() method - 
+sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values.
 
 
 
