@@ -127,18 +127,26 @@ Change css when link active
 # HTTP
 - Hypertext Transfer Protocol is an application-layer protocol for transmitting hypermedia documents, such as HTML.
 
-put 
-delete
-then
-get
 
 <img width="563" alt="Screenshot 2020-02-13 at 08 43 15" src="https://user-images.githubusercontent.com/52657665/74412167-1de8f780-4e3d-11ea-94c4-8d6012439163.png">
 
+Request methods :
 
+1) GET 
 
+The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
 
+2) POST
 
+The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server
 
+3) DELETE
+
+The DELETE method deletes the specified resource.
+
+4) CONNECT
+
+The CONNECT method establishes a tunnel to the server identified by the target resource.
 
 
 
