@@ -65,10 +65,11 @@
 How to create :
 1) install 
 
-        npm install react-router
+       npm install react-router-dom
+       
 or
         
-        yarn add react-router
+        yarn add react-router-dom
         
 2) import 
 
