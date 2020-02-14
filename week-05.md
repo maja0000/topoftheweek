@@ -1,13 +1,12 @@
 #  week5 recap 🧠
 
 ## Pure React (create react app without Babel)
-Babel is a  JavaScript compiler
 
 #### 1. Create src folder
 #### 2. Create html skeleton 
 #### 3. Create root div
         
-    (<div id="root"> Not rendered yet </div>)
+    (<div id="root"> All goes here </div>)
           
 #### 4. Add React and ReactDOM
              
@@ -28,7 +27,7 @@ Babel is a  JavaScript compiler
     )};
                        
                        
-#### 7. element inside another element - h1 inside of <div> tag 
+#### 7. element inside another element - h1 inside of div tag 
 
     function App() {
     return React.createElement('div', { className: 'hello' },
@@ -104,15 +103,14 @@ How to create :
 
         import { Link } from 'react-router-dom';
 
-6) add link inside <li>
+6) add link inside li tag
 
          <h3><Link to="/">My super Company</Link></h3>
-
          <li className="nav-items"><Link to="/About">Infos</Link></li>
 
 
-
 #### Navlink 
+-  Link and Navlink allow you to navigate to different routes defined in the application.
 
         import { Navlink } from 'react-router-dom';
 
@@ -128,13 +126,13 @@ Change css when link active
 
 Request methods :
 
-1) GET - The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+1) GET - method requests a representation of the specified resource. Requests using GET should only retrieve data.
 
-2) POST - The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server
+2) POST -  method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server
 
-3) DELETE - The DELETE method deletes the specified resource.
+3) DELETE - method deletes the specified resource.
 
-4) CONNECT - The CONNECT method establishes a tunnel to the server identified by the target resource.
+4) CONNECT -  method establishes a tunnel to the server identified by the target resource.
 
 
 # PROMISE 
