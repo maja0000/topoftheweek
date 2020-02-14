@@ -232,7 +232,3 @@ solution 3
                             }
                           }
                           fibonacci(x);
-
-
-
-
