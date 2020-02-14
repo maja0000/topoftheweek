@@ -1,6 +1,7 @@
 #  week5 recap 🧠
 
 ## Pure React (create react app without Babel)
+Babel is a  JavaScript compiler
 
 #### 1. Create src folder
 #### 2. Create html skeleton 
